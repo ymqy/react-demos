@@ -1,8 +1,6 @@
 # 安装
 
-## 开始
-
-### 在线体验
+## 在线体验
 尝试在线代码编辑器开始一个 React 版本的 Hello World 模版
 
 - [CodePen](https://codepen.io/pen?&editable=true&editors=0010&prefill_data_id=d800d600-f69a-0138-e35f-02420aff0006)
@@ -10,9 +8,8 @@
 - [Glitch](https://glitch.com/edit/#!/remix/starter-react-template)
 - [Stackblitz](https://stackblitz.com/fork/react)
 
-## 在网站中添加 React
 
-### 一分钟用上 React
+## 一分钟用上 React
 - 步骤 1：添加一个 DOM 容器到 HTML
 - 步骤 2：添加 Script 标签
 - 步骤 3：创建一个 React 组件
@@ -75,7 +72,8 @@ const domContainer = document.querySelector('#like_button_container');
 ReactDOM.render(e(LikeButton), domContainer);
 ```
 
-在 HTML 页面的多个位置展示 React 组件
+
+## 在 HTML 页面的多个位置展示 React 组件
 
 index.html
 ```
@@ -158,7 +156,8 @@ document.querySelectorAll('.like_button_container')
   });
 ```
 
-### 使用 React 和 JSX
+
+## 使用 React 和 JSX
 
 index.html
 ```
@@ -187,7 +186,8 @@ index.html
 </html>
 ```
 
-运行 JSX 预处理器
+
+## 运行 JSX 预处理器
 - 安装 node
 - 跳转到你的项目文件夹
   1. 执行 npm init -y
@@ -196,9 +196,9 @@ index.html
   4. 执行 npx babel --watch src --out-dir . --presets react-app/prod
   5. 创建一个 src/like_button.js 文件
 
-## 创建新的 React 应用
 
-### 使用 Create React App 创建一个新的 React 单页应用
+
+## 使用 Create React App 创建一个新的 React 单页应用
 需要在你的机器上安装 Node >= 8.10 和 npm >= 5.6
 
 要创建项目，请执行：
